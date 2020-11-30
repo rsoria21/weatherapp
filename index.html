@@ -8,14 +8,26 @@
     <title>Weather App</title>
   </head>
   <body>
-    <h1>Weather</h1>
-    <!-- / = gose to rootRoute -->
-    <div class="container">
-      <form action="/" method="post">
-        <label for="cityinput">City Name: </label>
-        <input id="cityInput" type="text" name="cityName" />
-        <button type="submit">Go</button>
-      </form>
+    <!-- this is the end of the weather code -->
+
+    <!-- this is the start of styling -->
+    <div class="box" id="heading">
+      <h1>Weather</h1>
+    </div>
+
+    <div class="box">
+      <div class="container">
+        <form action="/" method="post">
+          <!-- <label for="cityinput" class="cityText">City Name: </label> -->
+          <input
+            id="cityInput"
+            type="text"
+            name="cityName"
+            placeholder="Enter City Name Here"
+          />
+          <button type="submit">Go</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
